@@ -74,6 +74,11 @@ export default defineConfig({
     }),
   ],
 
+  buildOptions: {
+		site: "https://I1da725.github.io/",
+        // base: "https://github.com/masaki12-s/portfolio_astro"
+	},
+
   image: {
     service: squooshImageService(),
     domains: ['cdn.pixabay.com'],
